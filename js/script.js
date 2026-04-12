@@ -28,7 +28,8 @@ function alterarcor() {
 alterarcor()
 
 
-let imagens = ["../img/imagem2.png", "../img/image.png", "../img/imagem3.png"]
+let imagens = ["img/imagem2.png", "img/image.png", "img/imagem3.png"]
+// let imagens = ["../img/imagem2.png", "../img/image.png", "../img/imagem3.png"] vai introduzir no html entao sem ../
 
 const botaoAvancar = document.querySelector(`#ir`)
 const botaoRetornar = document.querySelector(`#voltar`)
